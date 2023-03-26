@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Website</title>
+    
+    <link rel =" stylesheet" href="style.css"> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="header">
+
+        <nav>
+
+            <a href="index.html"><img src="P.png"></a>
+
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+                <ul>
+
+                    <li><a href="">HOME</a></li>
+
+                    <li><a href="">ABOUT</a></li>
+
+                    <li><a href="">GENRES</a></li>
+
+                    <li><a href="">BLOGS</a></li>
+
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+
+        <div class="text-box">
+
+            <h1>ENCHANTING BIBLIOTHECA</h1>
+
+            <p>World's Biggest Library .  Get variety of genres to dive into ! </p>
+
+            <a href="" class="hero-btn">Visit Us To Know More </a>
+
+        </div>
+
+    </section> 
+
+      <!---- GENER -------->
+
+      <div class="main">
+       
+        <h3> GENRES WE OFFER </h3>
+       
+        <p>
+       
+          " Books are a hard-bound drug with no danger of an -ose . So you'll be a happy victim of books " 
+     
+        </p>
+     
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="fiction.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Literary Fiction</h2>
+                <p class="card_text"> Literary fiction novels are considered works with artistic value and literary merit, they are typically character-driven  as opposed to being plot-driven, and follow a character’s story </p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="horror.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Mystery</h2>
+                <p class="card_text">Mystery novels drop clues and slowly reveals information turning the reader into a detective . Mystery novels start with an exciting hook, and end with a satisfying conclusion  </p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="thriller.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Thriller</h2>
+                <p class="card_text">Thriller novels are dark, mysterious, and suspenseful plot-driven stories,they make up for in suspense they very seldom include comedic elements ,  keep readers on their toes</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="history.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Historical</h2>
+                <p class="card_text">Historical fiction novels take place in the past,careful balance of research and creativity , tell stories that involve actual historical figures or historical events</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="b.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Bildungsroman</h2>
+                <p class="card_text">Bildungsroman is a literary genre of stories about a character growing psychologically and morally from their youth into adulthood.</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="ft.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Speculative Fiction</h2>
+                <p class="card_text">Speculative fiction is a supergenre that encompasses a number of fiction, from science fiction to fantasy to dystopian and to real world .</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      <h3 class="made_by">Made with ♡</h3>
+
+ <!------------JavaScript for toggle menu ------    -->
+
+ <script>
+ 
+ var navLinks = document.getElementById("navLinks");
+    
+ function showMenu(){
+ 
+    navLinks.style.right = "0";
+ }
+
+ function hideMenu(){
+ 
+    navLinks.style.right = "-200px";
+ }
+ 
+ </script>
+
+ </body>
+ 
+ </html>
